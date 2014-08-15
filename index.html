@@ -1,0 +1,24 @@
+<html>
+	<title>drop saver</title>
+	<script type = "text/javascript" src = "https://www.dropbox.com/static/api/2/dropins.js" id = "dropboxjs" data-app-key = "529hz2okzonsama">
+	
+	function add(event)
+	{
+		 var url = event.value;
+		 var link = document.getElementById("buttons");
+		 link.setAttribute("href",url);
+	}
+	</script>
+	
+	<a href = "" class="dropbox-saver" align = "center">
+	</a>
+	
+	<link rel = "stylesheet" type = "text/css" href = "drop.css"></link>
+	
+	<body>
+		<div id = "box" align = "center">
+			<input placeholder = "Enter the url to be saved" onchange = "add(this)">
+			</input>
+		</div>
+	</body>
+</html>
