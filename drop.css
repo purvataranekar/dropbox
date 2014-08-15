@@ -1,12 +1,24 @@
 .dropbox-saver
 {
-	margin : 200px;
+	position : absolute;
+	left : 250px;
+	//margin : 200px;
 	height : 200px;
 	allign : center;
 	padding : 20px 0;	
 }
+
 #box
 {
+	position : relative;
+	top : 200px;
+	left : 150px;
 	margin : 200px;
 	height : 20px;
+}
+
+#input
+{
+	position : absolute;
+	left : 50px;
 }
